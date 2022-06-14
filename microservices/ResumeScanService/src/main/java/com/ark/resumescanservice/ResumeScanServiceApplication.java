@@ -1,4 +1,4 @@
-package com.ark.ResumeScanService;
+package com.ark.resumescanservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
