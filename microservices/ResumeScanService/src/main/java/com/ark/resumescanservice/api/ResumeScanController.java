@@ -1,5 +1,6 @@
 package com.ark.resumescanservice.api;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -7,4 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class ResumeScanController {
+
+    @GetMapping("/")
+    public String test() {
+        return "Hello ARK, your app is running";
+    }
 }
